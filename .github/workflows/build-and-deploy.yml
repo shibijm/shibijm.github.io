@@ -1,0 +1,12 @@
+name: Build and deploy
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build-nextjs-deploy-pages:
+    uses: shibijm/gh-actions-workflows/.github/workflows/build-nextjs-deploy-pages-preset-1.yml@master
+    permissions:
+      pages: write
+      id-token: write
