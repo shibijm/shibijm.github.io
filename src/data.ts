@@ -1,4 +1,4 @@
-export interface Data {
+interface Data {
 	metadata: {
 		title: string;
 		description: string;
@@ -13,3 +13,6 @@ export interface Data {
 		username: string;
 	};
 }
+
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+export const data = JSON.parse(process.env.DATA!) as Data;

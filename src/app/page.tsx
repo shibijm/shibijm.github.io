@@ -1,7 +1,7 @@
-import { data } from "@/config";
+import { data } from "@/data";
 import Link from "next/link";
 
-export { generateMetadata } from "./metadata";
+export { metadata } from "./metadata";
 
 export default function Page() {
 	return (
