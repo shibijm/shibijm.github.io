@@ -1,4 +1,5 @@
-.env
-.next
-node_modules
-out
+/.env
+/.next
+/node_modules
+/out
+/next-env.d.ts

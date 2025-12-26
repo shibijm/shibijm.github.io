@@ -1,26 +1,27 @@
 {
 	"name": "shibijm.github.io",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"dev": "next dev",
+		"lint": "eslint && tsc -b",
 		"build": "next build"
 	},
 	"dependencies": {
-		"next": "13.5.2",
-		"react": "18.2.0",
-		"react-dom": "18.2.0"
+		"next": "16.1.1",
+		"react": "19.2.3",
+		"react-dom": "19.2.3"
 	},
 	"devDependencies": {
-		"@types/node": "20.6.3",
-		"@types/react": "18.2.22",
-		"@types/react-dom": "18.2.7",
-		"@typescript-eslint/eslint-plugin": "6.7.2",
-		"@typescript-eslint/parser": "6.7.2",
-		"autoprefixer": "10.4.16",
-		"eslint": "8.49.0",
-		"eslint-config-next": "13.5.2",
-		"postcss": "8.4.30",
-		"tailwindcss": "^3.3.3",
-		"typescript": "5.2.2"
+		"@eslint/js": "9.39.2",
+		"@tailwindcss/postcss": "4.1.18",
+		"@types/node": "25.0.3",
+		"@types/react": "19.2.7",
+		"@types/react-dom": "19.2.3",
+		"eslint": "9.39.2",
+		"eslint-config-next": "16.1.1",
+		"tailwindcss": "4.1.18",
+		"typescript": "5.9.3",
+		"typescript-eslint": "8.50.1"
 	}
 }
