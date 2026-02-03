@@ -228,7 +228,7 @@ export default defineConfig([
 	},
 	{
 		files: ["**/*.ts", "**/*.tsx"],
-		extends: [tseslint.configs.recommended, tseslint.configs.strictTypeChecked, tseslint.configs.stylisticTypeChecked],
+		extends: [tseslint.configs.recommendedTypeChecked, tseslint.configs.strictTypeChecked, tseslint.configs.stylisticTypeChecked],
 		languageOptions: {
 			parserOptions: {
 				project: "tsconfig.json",
